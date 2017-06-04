@@ -5,7 +5,8 @@ header {
   font-weight: bold;
 }
 
-.logo-text {
+h1.logo-text {
+  font-size: 14px;
   color: MediumAquamarine;
 }
 
