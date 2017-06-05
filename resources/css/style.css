@@ -13,3 +13,22 @@ h1.logo-text {
 nav {
   display: inline-block;
 }
+
+.column {
+  display: flex;
+}
+
+.column div{
+  border: 1px solid;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
