@@ -115,8 +115,10 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  align-self: center;
+  text-align: center;
 }
 
-.span40 {
+.column .span40 {
   font-size: 40px;
 }
