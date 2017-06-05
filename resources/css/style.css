@@ -3,23 +3,49 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  justify-content: flex-start;
 }
 
-h1.logo-text {
+.logo {
+  display: flex;
+  padding-left: 30px;
+  width: 70%;
+}
+
+.logo span {
   font-size: 14px;
   color: MediumAquamarine;
+  padding-top: 30px;
+  padding-right: 200px;
 }
 
 nav {
   display: inline-block;
+  align-self: center;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
 }
 
 .column {
   display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+
 }
 
 .column div{
-  border: 1px solid;
+  border: 1px solid black;
 }
 .column.large {
   width: 630px;
@@ -45,7 +71,7 @@ nav {
 }
 
 .subhead {
-  font-size: 40px;
+  font-size: 3  0px;
 }
 
 .text {
@@ -55,17 +81,20 @@ nav {
 }
 
 .image1 {
-  background-image: url('.resources/images/wine.png');
+  font-size: 40px;
+  background-image: url('../images/wine.png');
+  height: 280px;
+  width: 630px;
 }
 
 .image2 {
-  background-image: url('.resources/images/fall.png');
+  background-image: url('../images/fall.png');
 }
 
 .image3 {
-  background-image: url('.resources/images/cameraman.png');
+  background-image: url('../images/cameraman.png');
 }
 
 .image4 {
-  background-image: url('.resources/images/cat.png');
+  background-image: url('../images/cat.png');
 }
