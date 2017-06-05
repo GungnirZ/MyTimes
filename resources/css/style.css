@@ -66,7 +66,8 @@ div {
   width: 300px;
   flex-direction: column;
   margin-top: 40px;
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-left: 15px;
 }
 
 .column .small {
@@ -74,8 +75,9 @@ div {
   width: 240px;
   flex-direction: column;
   margin-top: 40px;
+  margin-left: 20px;
 }
-
+/* First Column Story Segments */
 .mainstory {
   display: block;
 }
@@ -136,4 +138,29 @@ div {
 
 .column .span40 {
   font-size: 40px;
+}
+/* Third Column Section */
+.newsbites {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+h2.bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+span.bites {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+  display: block;
+  border-bottom: 1px solid black;
+  text-align: left;
+  width: 240px;
 }
