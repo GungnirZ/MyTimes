@@ -32,3 +32,40 @@ nav {
 .column.small {
   width: 240px;
 }
+
+.image {
+  display: flex;
+}
+
+.image h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.subhead {
+  font-size: 40px;
+}
+
+.text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image1 {
+  background-image: url('.resources/images/wine.png');
+}
+
+.image2 {
+  background-image: url('.resources/images/fall.png');
+}
+
+.image3 {
+  background-image: url('.resources/images/cameraman.png');
+}
+
+.image4 {
+  background-image: url('.resources/images/cat.png');
+}
