@@ -1,3 +1,4 @@
+/* Header Section */
 header {
   display: flex;
   font-family: Verdana;
@@ -5,31 +6,33 @@ header {
   font-weight: bold;
   position: fixed;
   z-index: 1;
-  background-color: white;
-  height: 80px;
   width: 100%;
-  justify-content: flex-start;
+  height: 80px;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .logo {
   display: flex;
+  flex-grow: 1;
   padding-left: 30px;
-  width: 70%;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 12px;
 }
 
 .logo span {
-  font-size: 14px;
   color: MediumAquamarine;
-  padding-top: 30px;
-  padding-right: 200px;
 }
 
 nav {
-  display: inline-block;
-  align-self: center;
+  padding-right: 40px;
 }
 
 nav span {
+  display: inline-block;
   padding: 20px 10px;
 }
 
@@ -37,41 +40,56 @@ a {
   color: black;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  padding-top: 80px;
-
-}
-
-.column div{
+div {
   border: 1px solid black;
 }
-.column.large {
-  width: 630px;
-}
-
-.column.medium {
-  width: 300px;
-}
-
-.column.small {
-  width: 240px;
-}
-
-.image {
+/* Column Section */
+.column {
   display: flex;
+  padding-top: 80px;
 }
 
-.image h2 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
+.column .large {
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 20px;
 }
 
-.subhead {
-  font-size: 3  0px;
+.column .medium {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.column .small {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+/* Column Images and Fonts */
+.image1 {
+  display: flex;
+  background-image: url('../images/wine.png');
+}
+
+.image2 {
+  display: flex;
+  background-image: url('../images/fall.png');
+}
+
+.image3 {
+  display: flex;
+  background-image: url('../images/cameraman.png');
+}
+
+.image4 {
+  display: flex;
+  background-image: url('../images/cat.png');
 }
 
 .text {
@@ -80,21 +98,13 @@ a {
   color: black;
 }
 
-.image1 {
+.column span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.span40 {
   font-size: 40px;
-  background-image: url('../images/wine.png');
-  height: 280px;
-  width: 630px;
-}
-
-.image2 {
-  background-image: url('../images/fall.png');
-}
-
-.image3 {
-  background-image: url('../images/cameraman.png');
-}
-
-.image4 {
-  background-image: url('../images/cat.png');
 }
